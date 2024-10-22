@@ -1,0 +1,333 @@
+@font-face {
+    font-family: "OutfitBold";
+    src: url("../../fonts/Outfit-Bold.ttf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "OutfitRegular";
+    src: url("../../fonts/Outfit-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "OutfitSemiBold";
+    src: url("../../fonts/Outfit-SemiBold.ttf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+	font-family: "OutfitMedium";
+	src: url("../../fonts/Outfit-Medium.ttf") format("opentype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* page title description */
+.page_title{ 
+    font-size: 40px;
+    height: 49px;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    color: #1D1D1F;
+    line-height: 50px;
+}
+
+.page_subtitle{ 
+    font-size: 36px;
+    height: 45px;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    color: #16AD78;
+    line-height: 45px;
+}
+.budget_used_container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 112px;
+}
+.budget_used_title{
+    font-size: 20px;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    color: #1D1D1F;
+    line-height: 25px;
+    margin-top: 23px;
+}
+.budget_used_price{
+    font-size: 30px;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    color: #0D57A4;
+    line-height: 38px;
+}
+.budget_used_date{
+    font-size: 14px;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    color: #333333;
+    line-height: 18px;
+    margin-top: 9px;
+}
+
+.budget_used_card{
+    height: 110px;
+    width: 240px;
+    border-radius: 8px;
+    background-color: #E1DCCF;
+    padding: 14px 15px 15px 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.budget_used_card_title{
+    font-size: 15px;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    color: #1D1D1F;
+    line-height: 19px;
+}
+
+.budget_used_card_price{
+    font-size: 20px;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    color: #333333;
+    line-height: 25px;
+    margin-top: 1px;
+}
+
+
+.budget_used_card_total{
+    font-size: 18px;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    color: #333333;
+    line-height: 23px;
+    margin-top: 13px;
+}
+
+.budget_used_card_total span{
+    font-size: 18px;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    color: #333333;
+    line-height: 23px;
+}
+
+/* progress styles */
+
+.progress_vertical_line{
+    height: 90px;
+    border-left: 2px solid #4489D1;
+}
+
+.progress_title{
+    margin-top: -6px;
+    font-size: 22px;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    color: #1D1D1F;
+    line-height: 28px;
+}
+
+.progress_price{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    color: #333333;
+    line-height: 23px;
+}
+
+.progress_bar_1{
+    height: 30px;
+    width: 100%;
+    background-color: #7471DF;
+    margin-top: 10px;
+}
+
+.progress_bar_2{
+    height: 30px;
+    width: 100%;
+    background-color: #F1A07C;
+    margin-top: 10px;
+}
+
+.progress_bar_3{
+    height: 30px;
+    width: 100%;
+    background-color: #A759B5;
+    margin-top: 10px;
+}
+
+.progress_bar_4{
+    height: 30px;
+    width: 100%;
+    background-color: #426CA7;
+    margin-top: 10px;
+}
+
+
+/* department budget styles */
+
+.department_budget_title{
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    color: #1D1D1F;
+    line-height: 30px;
+    margin-bottom: 14px;
+}
+
+/* card style */
+.main_card {
+    width: 285px;
+    height: 160px;
+    border-radius: 6px;
+    background-color: #4489D1;
+    padding: 20px 20px 21px 20px;
+    /* margin-right: 20px; */
+    position: relative;
+}
+
+.main_card .card_text {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "OutfitMedium", Arial, sans-serif;
+}
+.main_card .card_text_used {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    margin-bottom: 4px;
+}
+
+
+.main_card .card_bottom_arrow_container {
+    height: 26px;
+    width: 60px;
+    background-color: white;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D57A4;
+}
+.main_card .card_bottom_arrow_container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.main_card .card_bottom_arrow_container .card_bottom_arrow
+{
+    height: 20px;
+    width: 28px;
+}
+
+
+
+/* progress styles */
+.multigraph {
+    width: 334px;
+    height: 155px;
+    position: relative;
+  }
+  
+  .multigraph::before {
+    content: '';
+    width: 300px;
+    height: 155px;
+    left: 9px;
+    position: absolute;
+    border: 30px solid #fff;
+    border-radius: 300px 300px 0 0;
+    border-bottom: none;
+  }
+  
+  .tooltip_container{
+    width: 150px;
+    position: absolute;
+    top: 44%;
+    right: 30%;
+    text-align: center;
+  }
+
+  .tooltip {
+    font-size: 15px;
+    line-height: 19px;
+    font-family: 'OutfitRegular', Arial, sans-serif;
+    color: #333; 
+  }
+  
+  .tooltip p {
+    font-size: 50px;
+    line-height: 63px;
+    font-family: 'OutfitMedium', Arial, sans-serif;
+    color: #0D57A4;
+    margin-top: 5px;
+    
+  }
+  
+  .tooltip p span {
+    font-size: 35px;
+    line-height: 44px;
+    font-family: 'OutfitMedium', Arial, sans-serif;
+    color: #0D57A4;
+  }
+  
+  .graph {
+    width: 270px;
+    height: 180px;
+    display: block; 
+}
+  
+  .pointer_container {
+    display: block;
+    width: 290px;
+    height: 130px;
+    transform: rotate(270deg);
+    position: absolute;
+    top: -21%;
+    left: -65%;
+  }
+  
+  .graph::after {
+    transform: rotate(150deg);
+  }
+  
+  .graph::before {
+    content: '';
+    width: 275px;
+    height: 135px;
+    border-radius: 0 0 300px 300px;
+    border-top: none;
+    box-sizing: border-box;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    left: -51px;
+    top: 219px;
+    border: 6px solid transparent;
+    background: linear-gradient(270deg, #43b870 0%, #772cff 48.65%, #ff4747 100%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    box-sizing: border-box;
+    border-radius: 0 0 300px 300px;
+    transform: rotate(270deg);
+    border-top: none;
+  }
+  
+  .pointer {
+    width: 20px;
+    height: 20px;
+    border: 5px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 287px;
+    left: 6%;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  

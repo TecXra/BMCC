@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "OutfitBold";
+    src: url("../../fonts/Outfit-Bold.ttf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "OutfitRegular";
+    src: url("../../fonts/Outfit-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "OutfitSemiBold";
+    src: url("../../fonts/Outfit-SemiBold.ttf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+	font-family: "OutfitMedium";
+	src: url("../../fonts/Outfit-Medium.ttf") format("opentype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+
+.status_section{
+    color: #333;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.page_title{
+    color: #1D1D1F;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 17px;
+}
+
+.page_subtitle{
+    color: #333;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 3px;
+}
+
+.table_heading_title{
+    color: #1D1D1F;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/* summary section style */
+
+.summary_section{
+    height: 250px;
+    background-color: #E1DCCF;
+    border-radius: 4px;
+    padding: 16px 30px 20px 20px;
+}
+
+.summary_title{
+    color: #1D1D1F;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.summary_details_user_heading{
+    display: flex;
+}
+
+.summary_details_user_heading span{
+    color: #333;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.summary_details{
+    color: #333;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.summary_details span {
+    color: #333;
+    font-family: "OutfitBold", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+.summary_details_price{
+    color: #333;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.border_bottom_dashed{
+    width: 100%;
+    border-bottom: 1px dashed #979797;
+    margin-left: 12px;
+    display: inline-block;
+
+}
+
+.border_bottom_dashed_2{
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px dashed #979797;
+    margin-left: 10px;
+}
+
+
+.summary_detail_total_section{
+    height: 46px;
+    width: 307px;
+    background-color: #16AD78;
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.summary_detail_total_section h4{
+    color: #FFF;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.summary_detail_total_section h3{
+    color: #FFF;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/* table style */
+
+.table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table .table_heading{
+    height: 50px;
+    border: none;
+    background-color: #E1DCCF;
+    text-align: left;
+}
+
+.table_heading th:first-child {
+    border-top-left-radius: 12px; 
+    border: none;
+}
+  
+  .table_heading th:last-child {
+    border-top-right-radius: 12px;
+
+  }
+
+.table tr {
+    background-color: white;
+    color: #1D1D1F;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    height: 60px;
+}
+
+
+.table_row_style {
+    border-right: none;
+    border-left: none;
+    height: 59px;
+    color: #333;
+    font-size: 15px;
+}
+.budget_amount
+{
+    font-family: "OutfitMedium", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.table .table_heading th {
+    font-size: 16px;
+    color: #1D1D1F;
+    text-transform: uppercase;        
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+}
+
+.table .table_footer{
+    background-color: #E1DCCF;
+    height: 50px;
+    border-left: none;
+    border-bottom: none
+
+}
+
+.table_footer td:first-child {
+    border-bottom-left-radius: 12px; 
+    border: none;
+}
+  
+.table_footer td:last-child {
+    border-bottom-right-radius: 12px;
+
+  }
+
+.total_text
+{
+    line-height: 20px;
+    font-size: 16px;
+    color: #1D1D1F;
+    font-family: "OutfitSemiBold", Arial, sans-serif;
+    width: 272px;
+    text-align: end;
+    padding-right: 19px;
+}
+
+ .table .table_footer .table_footer_content{
+    background-color: #F0DC00;
+    line-height: 23px;
+    font-size: 18px;
+    color: #333;
+    font-family: "OutfitMedium", Arial, sans-serif;
+}
+
+/* table style end */
+
+
+/* progress bars style */
+.progress_vertical_line{
+    height: 90px;
+    border-left: 2px solid #4489D1;
+}
+
+.progress_title{
+    margin-top: -6px;
+    font-size: 22px;
+    font-family: "OutfitMedium", Arial, sans-serif;
+    color: #1D1D1F;
+    line-height: 28px;
+}
+
+.progress_price{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: "OutfitRegular", Arial, sans-serif;
+    color: #333333;
+    line-height: 23px;
+}
+
+.progress_bar_1{
+    height: 30px;
+    width: 100%;
+    background-color: #7471DF;
+    margin-top: 10px;
+}
+
+.progress_bar_2{
+    height: 30px;
+    width: 100%;
+    background-color: #F1A07C;
+    margin-top: 10px;
+}
+
+.progress_bar_3{
+    height: 30px;
+    width: 100%;
+    background-color: #A759B5;
+    margin-top: 10px;
+}
+
+.progress_bar_4{
+    height: 30px;
+    width: 100%;
+    background-color: #426CA7;
+    margin-top: 10px;
+}
+
